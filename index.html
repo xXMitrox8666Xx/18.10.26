@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>18.10.26</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <section id="intro" class="intro">
+    <p id="intro-text" class="intro-text" aria-live="polite"></p>
+
+    <img id="envelope" class="envelope" src="img/sobre.png" alt="Un sobre cerrado con un candado en forma de corazón">
+
+    <button id="key" class="key" aria-label="Abrir el sobre con la llave" hidden>
+      <img src="img/llave.png" alt="">
+    </button>
+  </section>
+
+  <main id="book-view" class="book-view" hidden>
+    <div id="book" class="book">
+
+      <article class="page">
+        <h1 class="fecha">18.10.26 &lt;3</h1>
+        <div class="lined lined--9">Hola amor, Como estas? Llevo un ratito hacienda esto, no es tan elaborado pero es una pequeña convinacion de dos cosas que me gustan mucho esta carta queda plasmada de mucho senitmiento y de tantas cosas que quiero decirte, me encantas llevo 4 meses viviendo a tu lado y han sido dias muy lindos y tan llenos de amor y encanto no puedo creer que hayas estado tan cerca de mi 
+        </div>
+        <div class="pie">
+          <button id="egg" class="egg" aria-label="Botón">
+            <img src="img/boton.png" alt="">
+          </button>
+        </div>
+      </article>
+
+      <article class="page">
+        <div class="lined lined--completo">Han sido varios dias los que he pensado en que tan cerca estabas de mi y del porque nunca me acerque, miedo quiza, todos mis dias pienso en ti estar contigo compartiendo mi vida, detalles pequeños, salidas y cosas que quiero hacer contigo, disfrutando de nosotros, hay cosas que me han llevado a pensar una cosa hizimos una conexion tan rapida que la vida nos hizo plenos, no fue solo la conexion casi inmediata, conocernos mutuamente, compartir y vivir tanto es una cosa tan marvillosa y que jamas cambiaria por nada del mundo, Disfruto que estes en mi vida 
+        </div>
+      </article>
+
+      <article class="page">
+        <img class="deco deco--audifonos" src="img/audifonos-gatos.png" alt="">
+        <div class="lined">Amo que seas tan comprensiva que tengas un entendimiento del mundo y que seas tan creativa e imaginativa, eres una persona maravillosa que merece todo en la vida y que quiero tener por siepre y hasta en fin de mis dias en mi vida, Eres parte de mi corazon adoro como eres y sobre todo que te amo, eres lo mas valioso que tengo y que tengo en mi vida, Eres el amor de mi vida en este y en todas las realidades, Te amo >⩊<</div>
+        <img class="deco deco--gato" src="img/gato-corazon.png" alt="">
+      </article>
+
+    </div>
+
+    <nav class="nav" aria-label="Cambiar de página">
+      <button id="prev" aria-label="Página anterior">&larr;</button>
+      <button id="next" aria-label="Página siguiente">&rarr;</button>
+    </nav>
+  </main>
+
+  <div id="modal" class="modal" hidden>
+    <button id="modal-close" class="modal-close" aria-label="Cerrar">&times;</button>
+    <div class="modal-contenido">
+      <video id="video" src="video/sorpresa.mp4" controls playsinline preload="none"></video>
+      
+      <div class="modal-texto">
+        <p>te digo o ya te lo sabes? Aqui teneis otro vale para su disfrute, hay consignas ni clausulas y cada vez temo mas que me vas a hacer pero dispuesto a todo mi vida jeje </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
